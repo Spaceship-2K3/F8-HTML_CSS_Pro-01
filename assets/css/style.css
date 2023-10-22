@@ -66,6 +66,7 @@ a {
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .navbar {
@@ -307,7 +308,8 @@ a {
 
 .featured .list {
     margin-top: 7rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 .featured .item {
